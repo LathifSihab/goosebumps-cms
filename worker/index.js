@@ -123,6 +123,12 @@ async function gh(env, path, init = {}) {
     },
   });
   const body = await r.json().catch(() => ({}));
+  if (r.status === 401) {
+    // describe the token's shape (never its value) so a bad paste is easy to spot
+    const t = env.GH_TOKEN;
+    throw new Error(`GitHub rejected GH_TOKEN (${body.message}). It starts with "${t.slice(0, 4)}", is ${t.length} characters`
+      + `${/\s/.test(t) ? ', contains whitespace' : ''}${/["']/.test(t) ? ', contains quotes' : ''}. Set it again: npx wrangler secret put GH_TOKEN`);
+  }
   if (!r.ok) throw new Error(`GitHub ${path.split('?')[0]}: ${body.message || r.status}`);
   return body;
 }
