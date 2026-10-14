@@ -112,6 +112,7 @@ async function verifyToken(request, env) {
 /* ── GitHub ── */
 
 async function gh(env, path, init = {}) {
+  if (!env.GH_TOKEN) throw new Error('GH_TOKEN is not set on the Worker (npx wrangler secret put GH_TOKEN)');
   const r = await fetch(`https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}${path}`, {
     ...init,
     headers: {
