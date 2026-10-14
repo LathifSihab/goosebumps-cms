@@ -1,0 +1,873 @@
+{
+  "version": 1,
+  "settings": {
+    "mobileVariant": "classic"
+  },
+  "seo": {
+    "title": {
+      "en": "Goosebumps — Premium Sound, Lighting & Event Entertainment | Brussels, Europe",
+      "fr": "",
+      "nl": ""
+    },
+    "description": {
+      "en": "Goosebumps: premium sound design, custom lighting, DJ services, live saxophone & special effects for Europe's most exclusive private events. Brussels-based, operating across Europe.",
+      "fr": "",
+      "nl": ""
+    },
+    "keywords": "event entertainment Brussels, premium sound lighting events, luxury event production Europe, DJ live music Belgium, event lighting design, private party entertainment, VIP event services, special effects events, stage technology Belgium, Goosebumps events",
+    "ogImage": "assets/images/og-image.jpg",
+    "siteUrl": "https://www.goosebumpsevents.eu/"
+  },
+  "contact": {
+    "email": "info@goosebumpsevents.eu",
+    "phoneDisplay": "+32 456 95 19 69",
+    "phoneHref": "+3245695169",
+    "instagram": "https://www.instagram.com/goosebumpsevents.eu/",
+    "instagramHandle": "@goosebumpsevents.eu",
+    "city": "Brussels",
+    "country": "BE"
+  },
+  "brand": {
+    "logo": "assets/images/logo.jpg?v=muzdjb73",
+    "loaderLogo": "assets/images/logo-loader.png",
+    "loaderText": {
+      "en": "Let's create something amazing",
+      "fr": "Créons quelque chose d’extraordinaire",
+      "nl": "Laten we samen iets geweldigs creëren"
+    }
+  },
+  "hero": {
+    "eyebrow": {
+      "en": "Premium Event Entertainment · Europe",
+      "fr": "Entertainment Premium · Europe",
+      "nl": "Premium Event Entertainment · Europa"
+    },
+    "title": {
+      "en": "Let's Create\nSomething *Amazing*",
+      "fr": "Créons ensemble\nquelque chose *d’Incroyable*",
+      "nl": "Laten we samen\niets *Geweldigs* maken"
+    },
+    "sub": {
+      "en": "World-class sound, lighting & entertainment for Europe's most exclusive events.",
+      "fr": "Son, lumière et divertissement de haute gamme pour les événements les plus exclusifs d’Europe.",
+      "nl": "Wereldklasse geluid, licht en entertainment voor Europa’s meest exclusieve evenementen."
+    },
+    "cta1": {
+      "en": "Plan Your Event",
+      "fr": "Planifier votre événement",
+      "nl": "Plan uw evenement"
+    },
+    "cta2": {
+      "en": "View Our Work",
+      "fr": "Voir nos réalisations",
+      "nl": "Bekijk ons werk"
+    },
+    "scroll": {
+      "en": "Scroll",
+      "fr": "Défiler",
+      "nl": "Scroll"
+    },
+    "background": {
+      "src": "assets/images/hero.jpg",
+      "alt": ""
+    },
+    "backgroundLayer2": {
+      "src": "assets/images/hero2.jpg?v=muzdjb73",
+      "alt": ""
+    },
+    "floatImage": {
+      "src": "assets/images/hfloat.jpg?v=muzdjb73",
+      "alt": "Franz Meyer performing live saxophone at a Goosebumps exclusive event"
+    }
+  },
+  "marquee": {
+    "visible": true,
+    "items": [
+      {
+        "id": "m1",
+        "text": {
+          "en": "Sound Design",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m2",
+        "text": {
+          "en": "Lighting",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m3",
+        "text": {
+          "en": "Stage Technology",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m4",
+        "text": {
+          "en": "Entertainment",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m5",
+        "text": {
+          "en": "DJ Services",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m6",
+        "text": {
+          "en": "Live Performances",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m7",
+        "text": {
+          "en": "VIP Events",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      {
+        "id": "m8",
+        "text": {
+          "en": "Special Effects",
+          "fr": "",
+          "nl": ""
+        }
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "about",
+      "type": "about",
+      "visible": true,
+      "nav": {
+        "show": true,
+        "label": {
+          "en": "About",
+          "fr": "À propos",
+          "nl": "Over ons"
+        }
+      },
+      "label": {
+        "en": "About Goosebumps",
+        "fr": "À propos de Goosebumps",
+        "nl": "Over Goosebumps"
+      },
+      "title": {
+        "en": "The Art of *Unforgettable* Events",
+        "fr": "L’Art des Événements *Inoubliables*",
+        "nl": "De kunst van *Onvergetelijke* Evenementen"
+      },
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": {
+            "en": "Goosebumps is Europe's premier lighting, sound and entertainment service — built for occasions where ordinary simply isn't an option. We provide complete stage technology, precision sound engineering, and breathtaking lighting design for the most exclusive private events across the continent.",
+            "fr": "Goosebumps est le premier prestataire européen de lumière, son et divertissement — conçu pour des occasions où l’ordinaire n’est pas une option. Technologie de scène complète, ingénierie sonore de précision et design lumière spectaculaire.",
+            "nl": "Goosebumps is Europa’s toonaangevende dienstverlener voor licht, geluid en entertainment — gebouwd voor gelegenheden waarbij gewoon geen optie is. Complete podiumtechnologie, precisiegeluid en adembenemend lichtdesign."
+          }
+        },
+        {
+          "id": "p2",
+          "text": {
+            "en": "Our clients include a special niche of families where traditions and values are still considered important, and cultural institutions who demand not just excellence, but absolute discretion. Every event is handled with the most professionalism.",
+            "fr": "Nos clients forment une niche spéciale de familles où les traditions et les valeurs sont encore considérées importantes, ainsi que des institutions culturelles qui exigent non seulement l’excellence, mais aussi une discrétion absolue. Chaque événement est géré avec le plus grand professionnalisme.",
+            "nl": "Onze klanten vormen een bijzondere niche van families waar tradities en waarden nog steeds als belangrijk worden beschouwd, en culturele instellingen die niet alleen excellentie eisen, maar ook absolute discretie. Elk evenement wordt behandeld met het hoogste professionalisme."
+          }
+        }
+      ],
+      "quote": {
+        "en": "“We don’t just set up equipment — we craft the atmosphere that makes your event legendary.”",
+        "fr": "“Nous ne faisons pas que monter du matériel — nous créons l’atmosphère qui rend votre événement légendaire.”",
+        "nl": "“Wij installeren niet zomaar apparatuur — wij creëren de sfeer die uw evenement legendarisch maakt.”"
+      },
+      "stats": [
+        {
+          "id": "st1",
+          "value": "Brussels",
+          "label": {
+            "en": "Home Base",
+            "fr": "",
+            "nl": ""
+          }
+        },
+        {
+          "id": "st2",
+          "value": "Europe",
+          "label": {
+            "en": "Our Reach",
+            "fr": "",
+            "nl": ""
+          }
+        },
+        {
+          "id": "st3",
+          "value": "VIP",
+          "label": {
+            "en": "Clientele Only",
+            "fr": "",
+            "nl": ""
+          }
+        },
+        {
+          "id": "st4",
+          "value": "100%",
+          "label": {
+            "en": "Discretion",
+            "fr": "Discrétion",
+            "nl": "Discretie"
+          }
+        }
+      ],
+      "imageMain": {
+        "src": "assets/images/wimga.jpg",
+        "alt": "Goosebumps DJ performing at an exclusive private event in Europe"
+      },
+      "imageSide": {
+        "src": "assets/images/wimg_b.jpg",
+        "alt": "Live saxophone performance at a luxury Goosebumps event"
+      }
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "visible": true,
+      "nav": {
+        "show": true,
+        "label": {
+          "en": "Process",
+          "fr": "Méthode",
+          "nl": "Werkwijze"
+        }
+      },
+      "label": {
+        "en": "How We Work",
+        "fr": "Notre façon de travailler",
+        "nl": "Hoe wij werken"
+      },
+      "title": {
+        "en": "From Vision to *Reality*",
+        "fr": "De la Vision à la *Réalité*",
+        "nl": "Van Visie naar *Realiteit*"
+      },
+      "steps": [
+        {
+          "id": "s1",
+          "title": {
+            "en": "Initial Consultation",
+            "fr": "Consultation initiale",
+            "nl": "Eerste consultatie"
+          },
+          "desc": {
+            "en": "We listen to your vision, understand the venue, the guest profile and the exact atmosphere you want to achieve — in complete confidentiality.",
+            "fr": "Nous écoutons votre vision, comprenons le lieu, le profil des invités et l’atmosphère exacte que vous souhaitez créer — en toute confidentialité.",
+            "nl": "Wij luisteren naar uw visie, begrijpen de locatie, het gastenrofiel en de exacte sfeer die u wilt bereiken — in volledige vertrouwelijkheid."
+          }
+        },
+        {
+          "id": "s2",
+          "title": {
+            "en": "Bespoke Proposal",
+            "fr": "Proposition sur mesure",
+            "nl": "Op maat gemaakt voorstel"
+          },
+          "desc": {
+            "en": "We design a fully tailored production plan — lighting scheme, sound architecture, entertainment programme and effects — crafted specifically for your event.",
+            "fr": "Nous concevons un plan de production entièrement personnalisé — scène lumière, architecture sonore, programme de divertissement et effets.",
+            "nl": "Wij ontwerpen een volledig op maat gemaakt productieplan — lichtschema, geluidsarchitectuur, entertainmentprogramma en effecten."
+          }
+        },
+        {
+          "id": "s3",
+          "title": {
+            "en": "Seamless Setup",
+            "fr": "Installation sans faille",
+            "nl": "Naadloze opbouw"
+          },
+          "desc": {
+            "en": "Our team arrives early, sets up with military precision, and conducts full technical rehearsals. Your guests will never see the machinery — only the magic.",
+            "fr": "Notre équipe arrive tôt, s’installe avec une précision militaire et effectue des répétitions techniques complètes.",
+            "nl": "Ons team arriveert vroeg, bouwt met militaire precisie op en voert volledige technische repetities uit."
+          }
+        },
+        {
+          "id": "s4",
+          "title": {
+            "en": "Flawless Delivery",
+            "fr": "Exécution parfaite",
+            "nl": "Vlekkeloze uitvoering"
+          },
+          "desc": {
+            "en": "On the night, our technical director manages every cue in real time. After the event, we pack down quietly and completely — leaving only memories.",
+            "fr": "Le soir J, notre directeur technique gère chaque signal en temps réel. Après l’événement, nous démontons discrètement — en laissant seulement les souvenirs.",
+            "nl": "Op de avond zelf beheert onze technisch directeur elke cue in realtime. Na het evenement bouwen wij stil af — alleen herinneringen blijven."
+          }
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "visible": true,
+      "nav": {
+        "show": true,
+        "label": {
+          "en": "Services",
+          "fr": "Services",
+          "nl": "Diensten"
+        }
+      },
+      "label": {
+        "en": "What We Offer",
+        "fr": "Ce que nous offrons",
+        "nl": "Wat wij bieden"
+      },
+      "title": {
+        "en": "Our *Services*",
+        "fr": "Nos *Services*",
+        "nl": "Onze *Diensten*"
+      },
+      "intro": {
+        "en": "From intimate dinners to grand European galas — we handle every technical element so you can focus on creating memories. One call. Total coverage.",
+        "fr": "Des dîners intimes aux grands galas européens — nous gérons chaque élément technique pour que vous puissiez créer des souvenirs. Un appel. Une couverture totale.",
+        "nl": "Van intieme diners tot grote Europese galas — wij verzorgen elk technisch element zodat u zich kunt focussen op het creëren van herinneringen."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "name": {
+            "en": "Premium Sound",
+            "fr": "Son Premium",
+            "nl": "Premium Geluid"
+          },
+          "desc": {
+            "en": "Crystal-clear audio for any space — from intimate salons to grand ballrooms. We use top-tier PA systems tested for the best quality, live mixing consoles to make all necessary changes, and bespoke acoustic solutions tailored to every unique venue so we can promise the best quality possible.",
+            "fr": "Audio d’une clarté cristalline pour tout espace. Systèmes PA haut de gamme, mixage live et solutions acoustiques sur mesure.",
+            "nl": "Kristalhelder geluid voor elke ruimte. Topklasse PA-systemen, live mixing en maatwerk akoestische oplossingen."
+          }
+        },
+        {
+          "id": "s2",
+          "name": {
+            "en": "Lighting Design",
+            "fr": "Design Lumière",
+            "nl": "Lichtdesign"
+          },
+          "desc": {
+            "en": "Atmospheric lighting that transforms any space. We programm a special and unique light show for your event only. Programmed by a proffessional lighting designer and deleted after the event. This way every event will be unique and special.",
+            "fr": "Éclairage dramatique qui transforme tout espace. Moving heads, LED walls et projections gobo — nous peignons avec la lumière.",
+            "nl": "Atmosferisch licht dat elke ruimte transformeert. Moving heads, LED-walls en gobo-projecties — wij schilderen met licht."
+          }
+        },
+        {
+          "id": "s3",
+          "name": {
+            "en": "DJ & Live Music",
+            "fr": "DJ & Musique Live",
+            "nl": "DJ & Live Muziek"
+          },
+          "desc": {
+            "en": "Our DJs are carefully selected; each DJ must meet certain criteria to be allowed to perform at your event under our name. They are also all assessed on their ability to read the crowd. This ensures that the music played is always what the audience wants. Our live saxophone option adds a fantastic extra touch to make the party truly unforgettable.",
+            "fr": "DJs de classe mondiale et musiciens live — saxophone, percussions, chanteurs — des sets d’ambiance raffinés aux heures de pointe électrifiantes.",
+            "nl": "Wereldklasse DJ’s en live muzikanten — saxofoon, percussie, zangers — van verfijnde achtergrondsets tot elektrificerende hoogtepunten."
+          }
+        },
+        {
+          "id": "s4",
+          "name": {
+            "en": "Stage Technology",
+            "fr": "Technologie de Scène",
+            "nl": "Podiumtechnologie"
+          },
+          "desc": {
+            "en": "Complete stage build, rigging, power distribution and technical direction. Our experienced crew handles every technical aspect so not a single cable is out of place.",
+            "fr": "Construction de scène complète, gréement et direction technique. Chaque aspect géré avec précision.",
+            "nl": "Complete podiumopbouw, bevestiging en technische leiding. Elk technisch aspect verzorgd met precisie."
+          }
+        },
+        {
+          "id": "s5",
+          "name": {
+            "en": "Special Effects",
+            "fr": "Effets Spéciaux",
+            "nl": "Speciale Effecten"
+          },
+          "desc": {
+            "en": "Smoke – fog machines, confetti cannons, flamethrowers, lasers and custom pyrotechnics — We have specialists in special effects. Thanks to them, the lasers will shoot stunning beams through the smoke, the flame throwers will shoot 4-metre-high flames into the air at just the right moments, and the confetti will fly when the moment is perfect.",
+            "fr": "Fumée – machines à fumée, canons à confettis, lance-flammes, lasers et pyrotechnie sur mesure — Nous avons des spécialistes en effets spéciaux. Grâce à eux, les lasers enverront de superbes faisceaux à travers la fumée, les lance-flammes enverront des flammes de 4 mètres de haut au bon moment, et les confettis s’envoleront au moment parfait.",
+            "nl": "Rook – rookmachines, confettikanonnen, vlammenwerpers, lasers en op maat gemaakte pyrotechniek — Wij hebben specialisten in speciale effecten. Dankzij hen schieten de lasers prachtige bundels door de rook, schieten de vlammenwerpers 4 meter hoge vlammen de lucht in op precies het juiste moment, en vliegen de confetti wanneer het moment perfect is."
+          }
+        },
+        {
+          "id": "s6",
+          "name": {
+            "en": "Full Production",
+            "fr": "Production Complète",
+            "nl": "Volledige Productie"
+          },
+          "desc": {
+            "en": "One trusted partner for everything. We manage the complete technical production of your event — absolute discretion, flawless execution from setup to final breakdown. We will provide everything.",
+            "fr": "Un seul partenaire pour tout. Nous gérons la production technique complète de votre événement — discrétion absolue, exécution parfaite du montage au démontage final. Nous fournirons tout.",
+            "nl": "Eén vertrouwde partner voor alles. Wij beheren de volledige technische productie van uw evenement — absolute discretie, vlekkeloze uitvoering van opbouw tot definitieve afbraak. Wij zullen alles voorzien."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pb1",
+      "type": "photoQuote",
+      "visible": true,
+      "nav": {
+        "show": false,
+        "label": {
+          "en": "Quote",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      "heading": {
+        "en": "“The atmosphere you create\nbecomes the memory they keep”",
+        "fr": "“L’atmosphère que vous créez\ndevient le souvenir qu’ils gardent”",
+        "nl": "“De sfeer die u creëert\nwordt de herinnering die ze bewaren”"
+      },
+      "sub": {
+        "en": "Goosebumps · Europe",
+        "fr": "Goosebumps · Europe",
+        "nl": "Goosebumps · Europa"
+      },
+      "image": {
+        "src": "assets/images/pb1.jpg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "visible": true,
+      "nav": {
+        "show": true,
+        "label": {
+          "en": "Gallery",
+          "fr": "Galerie",
+          "nl": "Galerij"
+        }
+      },
+      "label": {
+        "en": "Our Work",
+        "fr": "Nos réalisations",
+        "nl": "Ons werk"
+      },
+      "title": {
+        "en": "Events That *Resonate*",
+        "fr": "Événements qui *Marquent*",
+        "nl": "Evenementen die *Raken*"
+      },
+      "images": [
+        {
+          "id": "g1",
+          "src": "assets/images/g1.jpg?v=muzdjb73",
+          "alt": "Custom neon sign at a luxury Goosebumps event"
+        },
+        {
+          "id": "g2",
+          "src": "assets/images/g2.jpg",
+          "alt": "VIP dancefloor with premium lighting at a Goosebumps event"
+        },
+        {
+          "id": "g3",
+          "src": "assets/images/g3.jpg",
+          "alt": "Professional DJ console setup at an exclusive European event"
+        },
+        {
+          "id": "g4",
+          "src": "assets/images/g4.jpg",
+          "alt": "Live saxophone performance with laser lighting effects"
+        },
+        {
+          "id": "g5",
+          "src": "assets/images/g5.jpg?v=muzdjb73",
+          "alt": "Saxophonist performing with atmospheric smoke effects at a Goosebumps event"
+        },
+        {
+          "id": "g6",
+          "src": "assets/images/g6.jpg",
+          "alt": "Saxophonist descending grand staircase at a luxury private event"
+        },
+        {
+          "id": "g7",
+          "src": "assets/images/g7.jpg",
+          "alt": "Goosebumps DJ performing at an exclusive VIP celebration"
+        },
+        {
+          "id": "g8",
+          "src": "assets/images/g8.jpg?v=muzdjb73",
+          "alt": "Neon-lit staircase at a Goosebumps premium event production"
+        },
+        {
+          "id": "g9",
+          "src": "assets/images/g9.jpg?v=muzdjb73",
+          "alt": "Live saxophone with dramatic beam lighting at an exclusive event"
+        },
+        {
+          "id": "g10",
+          "src": "assets/images/g10.jpg",
+          "alt": "Goosebumps team DJ set at a European luxury event"
+        },
+        {
+          "id": "g11",
+          "src": "assets/images/g11.jpg?v=muzdjb73",
+          "alt": "Guests dancing at a Goosebumps premium event"
+        },
+        {
+          "id": "g12",
+          "src": "assets/images/g12.jpg?v=muzdjb73",
+          "alt": "Atmospheric lighting and entertainment at a Goosebumps exclusive event"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "visible": true,
+      "nav": {
+        "show": true,
+        "label": {
+          "en": "Team",
+          "fr": "Équipe",
+          "nl": "Team"
+        }
+      },
+      "label": {
+        "en": "The People Behind the Magic",
+        "fr": "Les gens derrière la magie",
+        "nl": "De mensen achter de magie"
+      },
+      "title": {
+        "en": "Meet the *Team*",
+        "fr": "Notre *Équipe*",
+        "nl": "Ons *Team*"
+      },
+      "members": [
+        {
+          "id": "nicolas",
+          "name": "Nicolas Alting von Geusau",
+          "role": {
+            "en": "Founder / manager / DJ",
+            "fr": "Manager / DJ",
+            "nl": "Manager / DJ"
+          },
+          "bio": {
+            "en": "As co-founder of Goosebumps, Nicolas is mainly active behind the scenes — preparing events, managing client relations, and overseeing direction and control during the event.",
+            "fr": "Co-fondateur de Goosebumps, Nicolas œuvre principalement en coulisses — préparation des événements, relation client, et direction opérationnelle pendant l’événement.",
+            "nl": "Als mede-oprichter van Goosebumps werkt Nicolas voornamelijk achter de schermen — het voorbereiden van evenementen, contact met klanten, en de regie en controle tijdens het evenement."
+          },
+          "photo": {
+            "src": "assets/images/t1.jpg",
+            "alt": "Nicolas Alting von Geusau — Goosebumps Co-Founder"
+          }
+        },
+        {
+          "id": "laura",
+          "name": "Laura Meyer",
+          "role": {
+            "en": "Techno Specialized DJ",
+            "fr": "DJ Techno",
+            "nl": "Techno Gespecialiseerde DJ"
+          },
+          "bio": {
+            "en": "Want a banger of an (after) party? Laura is your person. A techno-specialized DJ, but equally capable of spinning other genres — her beats will keep everyone on the dancefloor all night long.",
+            "fr": "Vous voulez un after party qui déchire ? Laura est la personne qu’il vous faut. Spécialisée en techno mais polyvalente, ses sets maintiennent tout le monde sur la piste de danse.",
+            "nl": "Wil jij een banger van een (after) party? Dan ben je bij Laura aan het juiste adres! Techno gespecialiseerde DJ, maar ook meer dan goed capabel om andere genres te draaien — ze zorgt ervoor dat alle aanwezigen op de dansvloer blijven!"
+          },
+          "photo": {
+            "src": "assets/images/t2.jpg",
+            "alt": "Laura Meyer — Goosebumps Team"
+          }
+        },
+        {
+          "id": "franz",
+          "name": "Franz Meyer",
+          "role": {
+            "en": "Saxophonist / Entertainer",
+            "fr": "Saxophoniste / Animateur",
+            "nl": "Saxofonist / Entertainer"
+          },
+          "bio": {
+            "en": "When Franz enters the room with his saxophone, the atmosphere is impossible to miss. He stood alongside Nicolas at the very start of Goosebumps. Today his role is keeping the energy sky-high and ensuring everything runs smoothly behind the scenes.",
+            "fr": "Quand Franz entre dans la salle avec son saxophone, l’atmosphère est impossible à manquer. Il était là dès les débuts de Goosebumps. Aujourd’hui il veille à ce que l’énergie reste au sommet.",
+            "nl": "Als onze saxofonist de zaal betreedt is de sfeer niet te missen. Franz stond samen met Nicolas aan het begin van Goosebumps. Tegenwoordig zorgt hij dat de sfeer torenhoog blijft en dat alles soepel verloopt."
+          },
+          "photo": {
+            "src": "assets/images/t3.jpg",
+            "alt": "Franz Meyer — Saxophonist and Entertainer at Goosebumps"
+          }
+        },
+        {
+          "id": "jean",
+          "name": "Jean de Roissart",
+          "role": {
+            "en": "Goosebumps DJ",
+            "fr": "DJ Goosebumps",
+            "nl": "Goosebumps DJ"
+          },
+          "bio": {
+            "en": "On multiple occasions the power almost had to be cut just to get people to go home — because once Jean is behind the decks, no one wants to leave the dancefloor. From 70s classics to today’s pop sing-alongs, Jean reads every crowd perfectly.",
+            "fr": "Plusieurs fois, il a presque fallu couper le courant pour faire rentrer les gens — tant qu’avec Jean derrière les platines, personne ne veut quitter la piste. Des classiques des années 70 aux tubes pop actuels, il lit chaque foule parfaitement.",
+            "nl": "Al meerdere keren is bijna de stroom uit gezet moeten worden om te zorgen dat de mensen naar huis gingen — want als Jean achter de draaitafel staat dan gaat men niet meer van die dansvloer af! Van jaren 70 muziek tot de hedendaagse pop meezingers, Jean leest elk publiek perfect."
+          },
+          "photo": {
+            "src": "assets/images/t4.jpg",
+            "alt": "Jean de Roissart — Goosebumps Team"
+          }
+        },
+        {
+          "id": "benedikt",
+          "name": "Benedikt Alting von Geusau",
+          "role": {
+            "en": "Technical Supervisor / Pyrotechnics",
+            "fr": "Superviseur Technique / Pyrotechnie",
+            "nl": "Technisch Supervisor / Pyrotechniek"
+          },
+          "bio": {
+            "en": "Confetti? Lasers? Smoke? Leave it all to Benedikt. He ensures the perfect amount of smoke fills the room, the confetti cannon fires at precisely the right moment, and the lasers shoot stunning beams through the haze — plus he handles the full pyrotechnic show.",
+            "fr": "Confettis ? Lasers ? Fumée ? Confiez tout à Benedikt. Il s’assure que la salle ait la quantité parfaite de fumée, que le canon à confettis parte au bon moment, et que les lasers dessinent de magnifiques faisceaux — sans oublier le spectacle pyrotechnique.",
+            "nl": "Confetti? Lasers? Rook? Dat kun je allemaal aan Benedikt overlaten. Hij zorgt voor de perfecte hoeveelheid rook, het juiste moment voor het confettikanon, en prachtige laserlijnen door de rook heen — plus de volledige vuurwerkshow."
+          },
+          "photo": {
+            "src": "assets/images/t5.jpg",
+            "alt": "Benedikt Alting von Geusau — Goosebumps Team"
+          }
+        },
+        {
+          "id": "ernest",
+          "name": "Ernest Bragt",
+          "role": {
+            "en": "Event Operations",
+            "fr": "Opérations Événement",
+            "nl": "Event Operaties"
+          },
+          "bio": {
+            "en": "Thanks to Ernest, we have never had a major problem during an event. He rescues us every time, always keeping a cool head and solving issues before anyone notices. He makes sure your event goes ahead no matter what.",
+            "fr": "Grâce à Ernest, nous n’avons jamais eu de gros problème lors d’un événement. Il nous sauve à chaque fois, toujours avec un esprit calm et une grande efficacité. Il s’assure que votre événement se passe quoi qu’il arrive.",
+            "nl": "Dankzij Ernest hebben we nog nooit tijdens een event grote problemen gehad. Hij redt ons elke keer weer met een nuchtere blik. Hij zorgt ervoor dat uw event koste wat het kost door zal gaan!"
+          },
+          "photo": {
+            "src": "assets/images/t6.jpg",
+            "alt": "Ernest Bragt — Goosebumps Team"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "type": "why",
+      "visible": true,
+      "nav": {
+        "show": false,
+        "label": {
+          "en": "Why Us",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      "label": {
+        "en": "Why Choose Goosebumps",
+        "fr": "Pourquoi choisir Goosebumps",
+        "nl": "Waarom Goosebumps"
+      },
+      "title": {
+        "en": "Excellence in *Every Detail*",
+        "fr": "L’excellence dans *Chaque Détail*",
+        "nl": "Uitmuntendheid in *Elk Detail*"
+      },
+      "items": [
+        {
+          "id": "w1",
+          "icon": "◈",
+          "title": {
+            "en": "Total Discretion",
+            "fr": "Discrétion totale",
+            "nl": "Totale discretie"
+          },
+          "desc": {
+            "en": "We operate under strict confidentiality. Guest lists, venue details and client identities are always protected — trusted by several for good reason.",
+            "fr": "Nous travaillons sous stricte confidentialité. Les listes d’invités, les lieux et les identités des clients sont toujours protégés — la confiance de plusieurs, pour de bonnes raisons.",
+            "nl": "Wij werken onder strikte vertrouwelijkheid. Gastenlijsten, locatiedetails en cliëntidentiteiten zijn altijd beschermd — vertrouwd door velen, om goede redenen."
+          }
+        },
+        {
+          "id": "w2",
+          "icon": "◎",
+          "title": {
+            "en": "Top-Quality Equipment",
+            "fr": "Équipement haut de gamme",
+            "nl": "Topkwaliteit apparatuur"
+          },
+          "desc": {
+            "en": "We invest in the finest professional equipment — Nexo audiotechnik sound, Robe lighting, Pioneer DJ setups — and maintain it meticulously.",
+            "fr": "Nous investissons dans les meilleurs équipements professionnels — son Nexo audiotechnik, éclairages Robe, platines Pioneer DJ — et les maintenons méticuleusement.",
+            "nl": "Wij investeren in de beste professionele apparatuur — Nexo audiotechnik geluid, Robe verlichting, Pioneer DJ setups — en onderhouden deze minutieus."
+          }
+        },
+        {
+          "id": "w3",
+          "icon": "◇",
+          "title": {
+            "en": "One Point of Contact",
+            "fr": "Un seul interlocuteur",
+            "nl": "Eén contactpersoon"
+          },
+          "desc": {
+            "en": "No juggling multiple vendors. We are your single trusted partner — from lighting design to live saxophone, coordinated by one dedicated team.",
+            "fr": "Pas de plusieurs prestataires. Nous sommes votre unique partenaire de confiance pour tout.",
+            "nl": "Geen meerdere leveranciers. Wij zijn uw enige vertrouwde partner voor alles."
+          }
+        },
+        {
+          "id": "w4",
+          "icon": "△",
+          "title": {
+            "en": "Pan-European Reach",
+            "fr": "Portée pan-européenne",
+            "nl": "Pan-Europees bereik"
+          },
+          "desc": {
+            "en": "Based in Brussels, we operate across Europe — from Paris châteaux to Amsterdam canals to Spanish villas. Wherever you celebrate, we’ll be there.",
+            "fr": "Basés à Bruxelles, nous opérons dans toute l’Europe. Où que vous célébriez, nous serons là.",
+            "nl": "Gebaseerd in Brussel, opereren wij door heel Europa. Waar u ook viert, wij zijn er."
+          }
+        }
+      ],
+      "imageA": {
+        "src": "assets/images/about.jpg?v=muzdjb73",
+        "alt": "Goosebumps premium event entertainment production in Europe"
+      },
+      "imageB": {
+        "src": "assets/images/about2.jpg",
+        "alt": "Goosebumps DJ performing at an exclusive VIP event"
+      },
+      "badgeValue": "Europe",
+      "badgeLabel": {
+        "en": "Wide",
+        "fr": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "visible": true,
+      "nav": {
+        "show": false,
+        "label": {
+          "en": "Contact",
+          "fr": "",
+          "nl": ""
+        }
+      },
+      "label": {
+        "en": "Get in Touch",
+        "fr": "Nous contacter",
+        "nl": "Neem contact op"
+      },
+      "title": {
+        "en": "Ready to Create\nSomething *Epic?*",
+        "fr": "Prêts à créer\nquelque chose *d’Épique ?*",
+        "nl": "Klaar om iets\n*Episch* te maken?"
+      },
+      "intro": {
+        "en": "Whether you’re planning an intimate dinner for thirty or a grand gala for three hundred, we’ll craft the perfect atmosphere. Reach out and let’s discuss your vision.",
+        "fr": "Que vous planifiez un dîner intime ou un grand gala, nous créerons l’atmosphère parfaite. Contactez-nous et discutons de votre vision.",
+        "nl": "Of u nu een intiem diner of een groot gala plant, wij creëren de perfecte sfeer. Neem contact op en laten we uw visie bespreken."
+      },
+      "location": {
+        "en": "Brussels, Belgium · Europe-wide",
+        "fr": "Bruxelles, Belgique · Toute l’Europe",
+        "nl": "Brussel, België · Heel Europa"
+      },
+      "form": {
+        "firstName": {
+          "en": "First Name",
+          "fr": "Prénom",
+          "nl": "Voornaam"
+        },
+        "lastName": {
+          "en": "Last Name",
+          "fr": "Nom",
+          "nl": "Achternaam"
+        },
+        "email": {
+          "en": "Email",
+          "fr": "E-mail",
+          "nl": "E-mailadres"
+        },
+        "phone": {
+          "en": "Phone",
+          "fr": "Téléphone",
+          "nl": "Telefoonnummer"
+        },
+        "message": {
+          "en": "Tell Us About Your Event",
+          "fr": "Parlez-nous de votre événement",
+          "nl": "Vertel ons over uw evenement"
+        },
+        "submit": {
+          "en": "Send Enquiry →",
+          "fr": "Envoyer la demande →",
+          "nl": "Verstuur aanvraag →"
+        },
+        "sent": {
+          "en": "Enquiry Sent ✓",
+          "fr": "Demande envoyée ✓",
+          "nl": "Aanvraag verzonden ✓"
+        }
+      }
+    }
+  ],
+  "navCta": {
+    "en": "Enquire",
+    "fr": "Nous contacter",
+    "nl": "Contact"
+  },
+  "footer": {
+    "tagline": {
+      "en": "Premium sound, lighting and entertainment for Europe’s most exclusive private events. Trusted by discerning clients across the continent.",
+      "fr": "Son, lumière et divertissement premium pour les événements privés les plus exclusifs d’Europe.",
+      "nl": "Premium geluid, licht en entertainment voor Europa’s meest exclusieve privé-evenementen."
+    },
+    "navHeading": {
+      "en": "Navigation",
+      "fr": "Navigation",
+      "nl": "Navigatie"
+    },
+    "servicesHeading": {
+      "en": "Services",
+      "fr": "Services",
+      "nl": "Diensten"
+    },
+    "contactHeading": {
+      "en": "Contact",
+      "fr": "Contact",
+      "nl": "Contact"
+    },
+    "rights": {
+      "en": "All rights reserved.",
+      "fr": "Tous droits réservés.",
+      "nl": "Alle rechten voorbehouden."
+    }
+  }
+}

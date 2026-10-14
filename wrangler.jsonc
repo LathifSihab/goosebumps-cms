@@ -1,0 +1,19 @@
+{
+  // One Worker serves the public site (static, from site/), the CMS at /admin and its API at /api.
+  // Only /admin and /api run the Worker first (for the gate); every other request is a plain static file.
+  "name": "goosebumps-cms",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-09-22",
+  "assets": {
+    "directory": "site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/admin", "/admin/*", "/api/*"]
+  },
+  // Where the CMS publishes. For the client cutover, point these at DSMeridian/goosebumpsevents.eu and SITE_DIR "".
+  "vars": {
+    "GH_OWNER": "LathifSihab",
+    "GH_REPO": "goosebumps-cms",
+    "GH_BRANCH": "main",
+    "SITE_DIR": "site/"
+  }
+}
