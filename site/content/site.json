@@ -38,7 +38,7 @@
   },
   "hero": {
     "eyebrow": {
-      "en": "Premium Event Entertainment · Europe — CMS TEST",
+      "en": "Premium Event Entertainment · Europe",
       "fr": "Entertainment Premium · Europe",
       "nl": "Premium Event Entertainment · Europa"
     },
@@ -536,12 +536,6 @@
           "id": "g12",
           "src": "assets/images/g12.jpg?v=muzdjb73",
           "alt": "Atmospheric lighting and entertainment at a Goosebumps exclusive event"
-        },
-        {
-          "id": "5kz7ht",
-          "src": "assets/images/uploads/img-2555-06ebbcce.jpg",
-          "webp": "assets/images/uploads/img-2555-06ebbcce.webp",
-          "alt": ""
         }
       ]
     },
