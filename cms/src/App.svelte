@@ -15,6 +15,17 @@
   let loadError = $state('');
   const dirty = $derived(isDirty());
 
+  // narrow screens show one pane at a time; picking something in the sidebar opens its editor
+  type Pane = 'side' | 'editor' | 'preview';
+  let pane = $state<Pane>('editor');
+  $effect(() => {
+    void app.scrollRequest; // bumped by every select()
+    pane = 'editor';
+  });
+  const PANES: { id: Pane; label: string }[] = [
+    { id: 'side', label: 'Sections' }, { id: 'editor', label: 'Edit' }, { id: 'preview', label: 'Preview' },
+  ];
+
   const section = $derived(app.site?.sections.find((s) => s.id === app.selected));
   const panel = $derived(PANELS.find((p) => p.id === app.selected));
 
@@ -123,7 +134,13 @@
       </div>
     {/if}
 
-    <div class="main">
+    <div class="seg panes" role="group" aria-label="Show">
+      {#each PANES as p}
+        <button type="button" aria-pressed={pane === p.id} onclick={() => (pane = p.id)}>{p.label}</button>
+      {/each}
+    </div>
+
+    <div class="main" data-pane={pane}>
       <aside class="side"><Sidebar /></aside>
 
       <section class="editor">
@@ -176,7 +193,9 @@
   .banner .close { margin-left: auto; border: 0; }
 
   .main { flex: 1; min-height: 0; display: grid; grid-template-columns: 240px 400px 1fr; }
-  .side, .editor { overflow-y: auto; border-right: 1px solid var(--line); }
+  /* relative: keeps absolutely positioned children (e.g. the hidden file inputs) inside the scrolling
+     column; otherwise they are placed against the page and stretch it, giving the window a scrollbar */
+  .side, .editor { position: relative; overflow-y: auto; border-right: 1px solid var(--line); }
   .side { background: var(--panel); }
   .editor { padding: 18px 18px 40px; background: var(--panel); }
   .editor header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
@@ -189,8 +208,23 @@
   .navbox[open] summary { margin-bottom: 12px; }
   .preview { min-width: 0; background: #08070d; }
 
+  .panes { display: none; }
+
   @media (max-width: 1100px) {
     .main { grid-template-columns: 200px 340px 1fr; }
     .lbl { display: none; }
+  }
+
+  /* too narrow for three columns: one pane at a time, switched with the Sections / Edit / Preview bar */
+  @media (max-width: 860px) {
+    .topbar { flex-wrap: wrap; height: auto; padding: 10px 14px; row-gap: 10px; }
+    .spacer { display: none; }
+    .state { order: 1; width: 100%; }
+    .panes { display: flex; flex: none; margin: 8px 14px; }
+    .panes button { flex: 1; }
+    .main { grid-template-columns: 1fr; }
+    .main > * { display: none; border-right: 0; }
+    .main[data-pane='side'] .side, .main[data-pane='editor'] .editor, .main[data-pane='preview'] .preview { display: block; }
+    .banner { flex-wrap: wrap; }
   }
 </style>
