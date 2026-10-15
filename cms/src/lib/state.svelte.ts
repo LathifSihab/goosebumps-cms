@@ -1,6 +1,7 @@
 import { SvelteMap } from 'svelte/reactivity';
 import { blobToB64, loadContent, publish, textToB64, type PublishFile } from './api.ts';
 import { clearDraft, loadDraft, saveDraft, type Draft } from './drafts.ts';
+import { withDefaults } from './legal.ts';
 import { render } from './render.ts';
 import type { L10n, Lang, Site } from './schema.ts';
 
@@ -65,7 +66,7 @@ export function flash(kind: 'ok' | 'error' | 'info', text: string) {
 
 export async function loadSite() {
   const { site, sha } = await loadContent();
-  app.site = site;
+  app.site = withDefaults(site);
   app.baseSha = sha;
   app.publishedJson = JSON.stringify(site);
   uploads.clear();
@@ -76,7 +77,7 @@ export async function loadSite() {
 export function restoreDraft() {
   const d = app.pendingDraft;
   if (!d) return;
-  app.site = d.site;
+  app.site = withDefaults(d.site);
   for (const [path, blob] of Object.entries(d.uploads)) addUpload(path, blob);
   app.pendingDraft = null;
   if (d.baseSha !== app.baseSha) flash('info', 'Draft restored. Note: the live site was changed since this draft was saved — publishing will overwrite those changes.');

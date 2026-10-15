@@ -8,7 +8,7 @@
   let dragOver = $state<number | null>(null);
 
   const TOP = ['hero', 'marquee'];
-  const SITE = ['navCta', 'contactInfo', 'brand', 'seo', 'footer'];
+  const SITE = ['navCta', 'contactInfo', 'brand', 'seo', 'footer', 'legal'];
   const panel = (id: string) => PANELS.find((p) => p.id === id)!;
 
   function sectionName(s: Section): string {

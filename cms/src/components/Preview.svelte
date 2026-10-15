@@ -4,7 +4,7 @@
   import type { Site } from '../lib/schema.ts';
 
   /* Panel → element to scroll to in the preview */
-  const PANEL_TARGET: Record<string, string> = { hero: '#hero', marquee: '.mwrap', contactInfo: 'footer', brand: '#nav', seo: '#hero', footer: 'footer', navCta: '#nav', layout: '#hero' };
+  const PANEL_TARGET: Record<string, string> = { hero: '#hero', marquee: '.mwrap', contactInfo: 'footer', brand: '#nav', seo: '#hero', footer: 'footer', navCta: '#nav', layout: '#hero', legal: 'footer' };
 
   let cw = $state(0), ch = $state(0);
   // two iframes: the next render loads in the hidden one, then they swap — no white flash while typing

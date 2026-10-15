@@ -164,6 +164,21 @@ export const PANELS: Panel[] = [
     fields: [TL('tagline', 'Tagline'), T('navHeading', 'Heading: navigation'), T('servicesHeading', 'Heading: services'), T('contactHeading', 'Heading: contact'), T('rights', 'Copyright text')],
   },
   {
+    id: 'legal', name: 'Privacy & legal', desc: 'Company details in the footer and the privacy & cookie notice (opened from the footer and the contact form).', path: 'legal',
+    fields: [
+      { kind: 'plain', key: 'company', label: 'Company legal name', help: 'e.g. Goosebumps BV. Shown in the footer and the privacy notice.' },
+      { kind: 'plain', key: 'address', label: 'Registered office address' },
+      { kind: 'plain', key: 'companyNumber', label: 'Enterprise number (KBO/BCE)', help: 'Belgian law requires it on the website, e.g. BE 0123.456.789' },
+      { kind: 'plain', key: 'updated', label: 'Privacy notice last updated', help: 'Change this whenever you change the notice.' },
+      T('link', 'Link label'), T('formNotice', 'Line under the contact form'), T('title', 'Notice title'),
+      {
+        kind: 'list', key: 'blocks', label: 'Notice sections', itemName: 'section', title: (b) => en(b.title) || 'New section',
+        fields: [T('title', 'Heading'), TL('body', 'Text')],
+        make: () => ({ id: newId(), title: emptyL10n(), body: emptyL10n() }),
+      },
+    ],
+  },
+  {
     id: 'navCta', name: 'Menu button', desc: 'The highlighted button at the end of the menu.', path: '', countPath: 'navCta',
     fields: [T('navCta', 'Button label')],
   },

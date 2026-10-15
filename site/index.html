@@ -259,11 +259,10 @@
 }
 </script>
 
-<!-- ── PERFORMANCE HINTS ── -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="dns-prefetch" href="https://www.instagram.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<!-- ── FONTS (self-hosted: no visitor data goes to a font CDN) ── -->
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/dm-sans-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/cormorant-garamond-latin.woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="preload" as="image" href="assets/images/hero.jpg">
 </head>
@@ -576,6 +575,7 @@
           <div class="fg"><label data-i18n="f.ph">Phone</label><input type="tel" name="Phone" autocomplete="tel"></div>
           <div class="fg"><label data-i18n="f.ms">Tell Us About Your Event</label><textarea name="Message" required></textarea></div>
           <button type="submit" class="f-sub" data-i18n="f.sb">Send Enquiry →</button>
+          <p class="f-note"><span data-i18n="lg.note">We use your details only to reply to your enquiry.</span> <a href="#privacy" data-i18n="lg.link">Privacy &amp; cookies</a></p>
         </form>
       </div>
     </div>
@@ -613,7 +613,7 @@
       </ul></div>
     </div>
     <div class="f-bot">
-      <p>© 2026 Goosebumps. <span data-i18n="ft.rts">All rights reserved.</span> &nbsp;<a href="admin/" title="Admin" class="f-admin" rel="nofollow"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="rgba(200,200,220,1)"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg></a></p>
+      <p>© 2026 Goosebumps. <span data-i18n="ft.rts">All rights reserved.</span> · <a href="#privacy" data-i18n="lg.link">Privacy &amp; cookies</a> &nbsp;<a href="admin/" title="Admin" class="f-admin" rel="nofollow"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="rgba(200,200,220,1)"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg></a></p>
       <p class="f-credit">Built by <a href="https://drpbuildlab.com" target="_blank" rel="noopener">DRP BuildLab</a></p>
       <div class="f-soc">
         <a class="sol" href="https://www.instagram.com/goosebumpsevents.eu/" target="_blank" rel="noopener">IG</a>
@@ -622,6 +622,27 @@
     </div>
   </div>
 </footer>
+
+<!-- PRIVACY & COOKIES -->
+<dialog id="privacy" class="legal" aria-labelledby="privacy-title">
+  <form method="dialog"><button class="legal-x" type="submit" aria-label="Close">×</button></form>
+  <h2 id="privacy-title" data-i18n="lg.ttl">Privacy &amp; cookies</h2>
+  <p class="legal-who"><a href="mailto:info@goosebumpsevents.eu">info@goosebumpsevents.eu</a></p>
+  <h3 data-i18n="lg.0.t">Who is responsible?</h3>
+  <p data-i18n="lg.0.b">Goosebumps is responsible for the personal data processed through this website. You can reach us at info@goosebumpsevents.eu.</p>
+  <h3 data-i18n="lg.1.t">What we collect and why</h3>
+  <p data-i18n="lg.1.b">When you send the enquiry form, or email or call us, we receive your name, email address, phone number (if you give it) and the details of your event. We use them only to answer your enquiry and, if you wish, to prepare a quote and organise your event. The legal basis is taking steps at your request before entering into a contract (Art. 6(1)(b) GDPR). We do not use your details for marketing and never sell them.</p>
+  <h3 data-i18n="lg.2.t">Who receives your data</h3>
+  <p data-i18n="lg.2.b">The enquiry form is delivered to our inbox by FormSubmit (formsubmit.co), a form-forwarding service. This website is hosted by Cloudflare, which processes technical data such as your IP address to deliver the site and protect it against abuse. These providers may process data outside the European Union.</p>
+  <h3 data-i18n="lg.3.t">How long we keep it</h3>
+  <p data-i18n="lg.3.b">We keep enquiries for as long as we need them to handle your request, and at most 2 years after our last contact. If you become a client, we keep what Belgian accounting and tax law requires.</p>
+  <h3 data-i18n="lg.4.t">Cookies</h3>
+  <p data-i18n="lg.4.b">This website does not use cookies for analytics, advertising or tracking, and has no third-party trackers. The fonts are served from our own server and your language choice is not stored. The only cookie is set in the private editing area (/admin) for the people who maintain the site; it is strictly necessary to protect it.</p>
+  <h3 data-i18n="lg.5.t">Your rights</h3>
+  <p data-i18n="lg.5.b">You can ask us at any time to see, correct or delete your personal data, to restrict or object to its use, or to receive it in a portable format. Just email info@goosebumpsevents.eu. If you think we are not handling your data correctly, you can lodge a complaint with the Belgian Data Protection Authority (www.dataprotectionauthority.be).</p>
+  <p class="legal-upd"><span data-i18n="lg.upd">Last updated</span>: 2026-10-15</p>
+  <form method="dialog"><button type="submit" class="legal-close" data-i18n="lg.close">Close</button></form>
+</dialog>
 
 <script src="assets/js/content.js"></script>
 <script src="assets/js/main.js"></script>

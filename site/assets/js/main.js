@@ -301,6 +301,22 @@ function doSub(e){
   });
 }
 
+/* ── PRIVACY & COOKIES DIALOG (any link to #privacy opens it; also on load with #privacy in the URL) ── */
+(function(){
+  var dlg=document.getElementById('privacy');
+  if(!dlg||!dlg.showModal)return;
+  function open(){if(!dlg.open)dlg.showModal();}
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a[href="#privacy"]');
+    if(a){e.preventDefault();open();}
+  });
+  dlg.addEventListener('click',function(e){ /* a click on the backdrop (outside the box) closes it */
+    var r=dlg.getBoundingClientRect();
+    if(e.target===dlg&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dlg.close();
+  });
+  if(location.hash==='#privacy')open();
+})();
+
 /* ── INIT ── */
 try{applyTr();}catch(e){console.warn('applyTr:',e);}
 /* Init nav state immediately */

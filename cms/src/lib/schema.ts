@@ -97,6 +97,13 @@ export type Site = {
   footer: {
     tagline: L10n; navHeading: L10n; servicesHeading: L10n; contactHeading: L10n; rights: L10n;
   };
+  /** Company identification (shown in the footer, as Belgian law requires) and the privacy & cookie notice. */
+  legal: {
+    company: string; address: string; companyNumber: string; updated: string;
+    link: L10n; formNotice: L10n; title: L10n;
+    /** Texts may use {company} and {email}. */
+    blocks: { id: string; title: L10n; body: L10n }[];
+  };
 };
 
 export const SECTION_TYPE_NAMES: Record<SectionType, string> = {
