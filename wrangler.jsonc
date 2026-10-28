@@ -4,6 +4,13 @@
   "name": "goosebumps-cms",
   "main": "worker/index.js",
   "compatibility_date": "2026-09-22",
+  // Live on the client's domain; www is canonical, the apex redirects to it (Redirect Rule in the Cloudflare dashboard).
+  // workers.dev is off so the site isn't reachable (and indexable) on a second hostname.
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "www.goosebumpsevents.eu", "custom_domain": true },
+    { "pattern": "goosebumpsevents.eu", "custom_domain": true }
+  ],
   "assets": {
     "directory": "site",
     "binding": "ASSETS",
