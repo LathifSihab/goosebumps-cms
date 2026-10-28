@@ -669,6 +669,25 @@
             "src": "assets/images/t6.jpg",
             "alt": "Ernest Bragt — Goosebumps Team"
           }
+        },
+        {
+          "id": "3su06p",
+          "name": "Angelina Christ",
+          "role": {
+            "en": "Support agent",
+            "fr": "",
+            "nl": ""
+          },
+          "bio": {
+            "en": "angelina will proide our team with the right amount of support, before and during the event\n",
+            "fr": "",
+            "nl": ""
+          },
+          "photo": {
+            "src": "assets/images/uploads/nachtelijke-clubavond-met-stijlv-33a51d73.jpg",
+            "alt": "Angelina Christ - Goosebumps team",
+            "webp": "assets/images/uploads/nachtelijke-clubavond-met-stijlv-33a51d73.webp"
+          }
         }
       ]
     },
