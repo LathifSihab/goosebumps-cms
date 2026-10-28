@@ -599,24 +599,6 @@
           }
         },
         {
-          "id": "franz",
-          "name": "Franz Meyer",
-          "role": {
-            "en": "Saxophonist / Entertainer",
-            "fr": "Saxophoniste / Animateur",
-            "nl": "Saxofonist / Entertainer"
-          },
-          "bio": {
-            "en": "When Franz enters the room with his saxophone, the atmosphere is impossible to miss. He stood alongside Nicolas at the very start of Goosebumps. Today his role is keeping the energy sky-high and ensuring everything runs smoothly behind the scenes.",
-            "fr": "Quand Franz entre dans la salle avec son saxophone, l’atmosphère est impossible à manquer. Il était là dès les débuts de Goosebumps. Aujourd’hui il veille à ce que l’énergie reste au sommet.",
-            "nl": "Als onze saxofonist de zaal betreedt is de sfeer niet te missen. Franz stond samen met Nicolas aan het begin van Goosebumps. Tegenwoordig zorgt hij dat de sfeer torenhoog blijft en dat alles soepel verloopt."
-          },
-          "photo": {
-            "src": "assets/images/t3.jpg",
-            "alt": "Franz Meyer — Saxophonist and Entertainer at Goosebumps"
-          }
-        },
-        {
           "id": "jean",
           "name": "Jean de Roissart",
           "role": {
@@ -650,6 +632,24 @@
           "photo": {
             "src": "assets/images/t5.jpg",
             "alt": "Benedikt Alting von Geusau — Goosebumps Team"
+          }
+        },
+        {
+          "id": "franz",
+          "name": "Franz Meyer",
+          "role": {
+            "en": "Saxophonist / Entertainer",
+            "fr": "Saxophoniste / Animateur",
+            "nl": "Saxofonist / Entertainer"
+          },
+          "bio": {
+            "en": "When Franz enters the room with his saxophone, the atmosphere is impossible to miss. He stood alongside Nicolas at the very start of Goosebumps. Today his role is keeping the energy sky-high and ensuring everything runs smoothly behind the scenes.",
+            "fr": "Quand Franz entre dans la salle avec son saxophone, l’atmosphère est impossible à manquer. Il était là dès les débuts de Goosebumps. Aujourd’hui il veille à ce que l’énergie reste au sommet.",
+            "nl": "Als onze saxofonist de zaal betreedt is de sfeer niet te missen. Franz stond samen met Nicolas aan het begin van Goosebumps. Tegenwoordig zorgt hij dat de sfeer torenhoog blijft en dat alles soepel verloopt."
+          },
+          "photo": {
+            "src": "assets/images/t3.jpg",
+            "alt": "Franz Meyer — Saxophonist and Entertainer at Goosebumps"
           }
         },
         {
@@ -687,6 +687,25 @@
             "src": "assets/images/uploads/ansje-in-de-clubbbb-fc388e67.jpg",
             "alt": "Angelina Christ - Goosebumps team",
             "webp": "assets/images/uploads/ansje-in-de-clubbbb-fc388e67.webp"
+          }
+        },
+        {
+          "id": "a5s9o3",
+          "name": "Eléonore Beaumont",
+          "role": {
+            "en": "Administration manager",
+            "fr": "",
+            "nl": ""
+          },
+          "bio": {
+            "en": "Responsible for the administrative organisation and day-to-day management of all internal processes. From managing documents, invoices and schedules to monitoring deadlines and organising information. Eléonore ensures clarity, efficiency and smooth collaboration between all parties involved, so that the team can focus entirely on creating successful events.",
+            "fr": "Responsable de l'organisation administrative et du suivi quotidien de tous les processus internes. De la gestion des documents, des factures et des plannings au contrôle des échéances et à la structuration des informations. Eléonore veille à la clarté, à l'efficacité et à une collaboration fluide entre toutes les parties concernées, afin que l'équipe puisse se concentrer pleinement sur la mise en place d'événements réussis.",
+            "nl": "Verantwoordelijk voor de administratieve organisatie en de dagelijkse opvolging van alle interne processen. Van het beheren van documenten, facturen en planningen tot het bewaken van deadlines en het structureren van informatie. Eléonore zorgt voor overzicht, efficiëntie en een vlotte samenwerking tussen alle betrokken partijen, zodat het team zich volledig kan focussen op het creëren van geslaagde evenementen."
+          },
+          "photo": {
+            "src": "assets/images/uploads/professionele-eventgans-met-head-3e910e1e.jpg",
+            "alt": "Eléonore beaumont - goosebumps team",
+            "webp": "assets/images/uploads/professionele-eventgans-met-head-3e910e1e.webp"
           }
         }
       ]
