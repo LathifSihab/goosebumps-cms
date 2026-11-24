@@ -498,14 +498,21 @@
           "alt": "Live saxophone performance with laser lighting effects"
         },
         {
+          "id": "g6",
+          "src": "assets/images/uploads/mb2-0966-7d0668e8.jpg",
+          "alt": "Saxophonist descending grand staircase at a luxury private event",
+          "webp": "assets/images/uploads/mb2-0966-7d0668e8.webp"
+        },
+        {
           "id": "g5",
           "src": "assets/images/g5.jpg?v=muzdjb73",
           "alt": "Saxophonist performing with atmospheric smoke effects at a Goosebumps event"
         },
         {
-          "id": "g6",
-          "src": "assets/images/g6.jpg",
-          "alt": "Saxophonist descending grand staircase at a luxury private event"
+          "id": "alega6",
+          "src": "assets/images/uploads/mb2-0970-c51744b1.jpg",
+          "webp": "assets/images/uploads/mb2-0970-c51744b1.webp",
+          "alt": "venue filled with people and moving beams going trough the crowd"
         },
         {
           "id": "g7",
@@ -523,6 +530,12 @@
           "alt": "Live saxophone with dramatic beam lighting at an exclusive event"
         },
         {
+          "id": "9745na",
+          "src": "assets/images/uploads/mb2-1072-0fbe3936.jpg",
+          "webp": "assets/images/uploads/mb2-1072-0fbe3936.webp",
+          "alt": "confetti hanging from the sealing with lasers shooting in between"
+        },
+        {
           "id": "g10",
           "src": "assets/images/g10.jpg",
           "alt": "Goosebumps team DJ set at a European luxury event"
@@ -531,6 +544,12 @@
           "id": "g11",
           "src": "assets/images/g11.jpg?v=muzdjb73",
           "alt": "Guests dancing at a Goosebumps premium event"
+        },
+        {
+          "id": "uo1cao",
+          "src": "assets/images/uploads/mb1-2006-8011b645.jpg",
+          "webp": "assets/images/uploads/mb1-2006-8011b645.webp",
+          "alt": "Laser shooting trough the crowd and smoke"
         },
         {
           "id": "g12",
